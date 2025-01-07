@@ -400,8 +400,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0498a3317629be4c8b9eb493178c122, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 6200204790302272811, guid: df156001f68b7744f8ddd99d609e69a7,
-    type: 3}
+  enemyPrefabs:
+  - {fileID: 6200204790302272811, guid: df156001f68b7744f8ddd99d609e69a7, type: 3}
+  - {fileID: 6200204790302272811, guid: 4964109978d82b54fa3b6375226ae0a1, type: 3}
   powerupPrefab: {fileID: 2203774700403768359, guid: 73f99b7b087790b43bf9b1b9ec2f3fbe,
     type: 3}
   spawnRange: 9
