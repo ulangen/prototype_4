@@ -374,6 +374,10 @@ MonoBehaviour:
   currentPowerUp: 0
   rocketPrefab: {fileID: 3826161178925380725, guid: ef3bccdf75d735b4098f1fd2e98a313d,
     type: 3}
+  hangTime: 0.5
+  smashSpeed: 10
+  explosionForce: 50
+  explosionRadius: 10
 --- !u!1 &1203430477
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,6 +413,7 @@ MonoBehaviour:
   powerupPrefabs:
   - {fileID: 2203774700403768359, guid: 73f99b7b087790b43bf9b1b9ec2f3fbe, type: 3}
   - {fileID: 6742770724465836702, guid: a5e01c7d987aaad43872c7c0d14008c7, type: 3}
+  - {fileID: 2556041267401857572, guid: 5f1ff485513a3e8468f0c5bcadf394ac, type: 3}
   spawnRange: 9
   enemyCount: 0
   waveNumber: 1
