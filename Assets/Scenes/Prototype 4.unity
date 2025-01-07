@@ -402,7 +402,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 6200204790302272811, guid: df156001f68b7744f8ddd99d609e69a7,
     type: 3}
+  powerupPrefab: {fileID: 2203774700403768359, guid: 73f99b7b087790b43bf9b1b9ec2f3fbe,
+    type: 3}
   spawnRange: 9
+  enemyCount: 0
+  waveNumber: 1
 --- !u!4 &1203430479
 Transform:
   m_ObjectHideFlags: 0
