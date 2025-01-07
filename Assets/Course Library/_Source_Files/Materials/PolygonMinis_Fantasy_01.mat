@@ -136,7 +136,7 @@ Material:
     - _FogColor: {r: 0.22894056, g: 0.12402681, b: 0.5441177, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &6605383712175341654
+--- !u!114 &965574767282479551
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
