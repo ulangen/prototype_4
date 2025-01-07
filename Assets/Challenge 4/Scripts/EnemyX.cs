@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyX : MonoBehaviour
 {
     public float speed;
+    public float extraSpeed;
     private Rigidbody enemyRb;
     private GameObject playerGoal;
 
@@ -13,6 +14,8 @@ public class EnemyX : MonoBehaviour
     {
         enemyRb = GetComponent<Rigidbody>();
         playerGoal = GameObject.Find("Player");
+        int waveCount = GameObject.Find("Spawn Manager").GetComponent<SpawnManagerX>().waveCount;
+        speed += extraSpeed * waveCount;
     }
 
     // Update is called once per frame
